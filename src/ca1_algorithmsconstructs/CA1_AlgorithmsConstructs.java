@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 /**
  * Main class for Food Storage System.
- * Provides menu-driven interface for managing food items in storage.
+ * Provides  menu-driven interface for managing food items in storage.
  * 
  * @author james
  */
