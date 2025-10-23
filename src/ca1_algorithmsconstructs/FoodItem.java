@@ -31,7 +31,7 @@ public class FoodItem {
         this.placementTime = placementTime;
     }
 
-    // Getter  methods
+    // Getter methods
     public String getName() {
         return name;
     }
