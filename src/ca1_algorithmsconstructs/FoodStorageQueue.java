@@ -10,7 +10,7 @@ import java.time.LocalDate;
  * Queue implementation for food storage system.
  * Uses circular array-based FIFO structure with max capacity of 8 items.
  * 
- * @author james
+ * @author James
  */
 public class FoodStorageQueue implements StorageOperations {
     

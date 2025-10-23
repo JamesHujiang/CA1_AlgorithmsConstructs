@@ -12,7 +12,7 @@ import java.time.format.DateTimeFormatter;
  * Represents a food item in the storage system.
  * Stores details about each food item including name, weight, dates.
  * 
- * @author james
+ * @author James
  */
 public class FoodItem {
     // Food item properties

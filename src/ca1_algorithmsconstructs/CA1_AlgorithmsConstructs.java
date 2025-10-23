@@ -14,7 +14,7 @@ import java.util.Scanner;
  * Main class for Food Storage System.
  * Provides menu-driven interface for managing food items in storage.
  * 
- * @author james
+ * @author James
  */
 public class CA1_AlgorithmsConstructs {
 

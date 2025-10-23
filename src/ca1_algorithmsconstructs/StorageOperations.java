@@ -11,7 +11,7 @@ import ca1_algorithmsconstructs.FoodItem;
  * Interface defining operations for the food storage system.
  * Follows FIFO (First In First Out) queue behavior.
  * 
- * @author james
+ * @author James
  */
 public interface StorageOperations {
     
