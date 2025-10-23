@@ -6,6 +6,7 @@ package ca1_algorithmsconstructs;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 /**
  * Represents a food item in the storage system.
@@ -48,15 +49,18 @@ public class FoodItem {
     }
 
     /**
-     * Returns a readable string of the food item details.
+     * Returns a formatted string of the food item details.
      */
     @Override
     public String toString() {
-        return "FoodItem{" +
-               "name='" + name + '\'' +
-               ", weight=" + weightInGrams + "g" +
-               ", bestBefore=" + bestBeforeDate +
-               ", placedAt=" + placementTime +
-               '}';
+        // Format dates for better readability
+        DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        DateTimeFormatter timeFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+        
+        return String.format("%-10s | Weight: %6.0fg | Best Before: %s | Added: %s",
+                name,
+                weightInGrams,
+                bestBeforeDate.format(dateFormat),
+                placementTime.format(timeFormat));
     }
 }
